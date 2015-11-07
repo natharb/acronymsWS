@@ -1,7 +1,7 @@
 package br.edu.ifpb.sistemasdistribuidos.beans;
 
 /**
- * Created by Nath on 11/7/2015.
+ * Classe responsavel pela resposta
  */
 public class ResponseBean {
 
