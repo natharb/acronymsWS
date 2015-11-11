@@ -58,7 +58,7 @@ public class AcronymController {
         } else {
             response.setStatus(-1);
             response.setAcronimo("ERROR");
-            response.setSignificado("Erro ao obter o significado");
+            response.setSignificado("Erro ao obter o significado.");
         }
 
         for (AcronimoBean acronimo: listaSignificados) {
@@ -76,7 +76,7 @@ public class AcronymController {
 
         response.setStatus(-1);
         response.setAcronimo("NAO ENCONTRADO");
-        response.setSignificado("Nao encontrado o significado");
+        response.setSignificado("Significado não encontrado na base de dados.");
 
         return response;
     }
